@@ -44,7 +44,50 @@
   transition: width 0.3s ease;
 }
 
+.transactions {
+  margin-top: 20px;
+}
 
+.transactions h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.transactions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.transactions li div {
+  flex: 1;
+  text-align: center;
+}
+
+
+.card{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.calendar{
+  text-align: center;
+
+}
+.calendar h2 {
+  font-size: 18px;
+}
 
 @keyframes App-logo-spin {
   from {
