@@ -2,7 +2,7 @@ import React from 'react';
 
 const Budget =({amount, period, progress}) => {
 
-    const progressBar = '${progress}%';
+    const progressBar = '${{ progress }}%' ;
     return (
         <div className="budget">
             <h2>{period}</h2>
@@ -12,7 +12,6 @@ const Budget =({amount, period, progress}) => {
                     <div className="slider"></div>
                 </div>
             </div>
-           
         </div>
     );
 };
